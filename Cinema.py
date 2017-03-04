@@ -11,7 +11,7 @@ def requisicao(titulo):
         req = requests.get("http://www.omdbapi.com/?t="+titulo+"&type=movie")
         dicionario = json.loads(req.text)
 
-        print("\n\n*-------------------------------------------------------------------------------------------------*\n"
+        print("\n\n*-------------------------------------------------------------------------------------------------------*\n"
               "    Titulo:",dicionario["Title"]+"\n"
               "    Ano:",dicionario["Year"]+"\n"
               "    Diretor:",dicionario["Director"]+"\n"
