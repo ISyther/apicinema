@@ -1,5 +1,5 @@
 import requests
-import simplejson as json
+import json
 import time
 req=None
 
